@@ -1,0 +1,30 @@
+
+.page-header {
+  width: 100%;
+  padding: 20px 0;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  transition: 0.3s;
+  .header {
+    justify-content: center;
+    align-items: center;
+    .header__right {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+      .header__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          .header__menu-items {
+            padding: 0 42px;
+          }
+      }
+    }
+  }
+}
+
+
+
