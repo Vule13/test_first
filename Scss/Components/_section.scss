@@ -2,16 +2,25 @@
   position: relative;
   z-index: 9;
   padding-top: 150px;
+  @media (max-width:991px) {
+    padding-top: 100px;
+  }
 }
-.section-trusted {
+.section--trusted {
   padding-top: 119px;
+  @media (max-width:991px) {
+    padding-top: 100px;
+  }
+  @media (max-width: 768px) {
+    padding-top: 80px;
+  }
 }
 
-.section-features {
+.section--features {
   
-  padding-top: 0;
+  padding-top: 27px;
 
 }
-.section-product {
+.section--product {
   padding-bottom: 150px;
 }
