@@ -197,17 +197,17 @@
   }
 }
 
-.quote-left__img {
+.quote-left {
   width: 100%;
   border-radius: 16px;
 }
 @media (max-width: 767px) {
-  .quote-left__img {
+  .quote-left {
     width: 100%;
   }
 }
 
-.quote-left {
+.box-trusted {
   align-items: center;
 }
 
