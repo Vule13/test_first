@@ -161,7 +161,7 @@
   }
 }
 
-.box-wrap__content--icon {
+.posts__icon {
   position: relative;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -239,14 +239,14 @@
   }
 }
 
-.text-box__title-features {
+.posts__title {
   font-size: 23px;
   font-weight: 800;
   letter-spacing: 0.92px;
   line-height: 1.04;
   padding-top: 42px;
 }
-.text-box__desc-feature {
+.posts__desc {
 
   padding-top: 16px;
 
@@ -273,7 +273,7 @@
  padding-right: 40px;
  padding-left: 40px;
 }
-.box-wrap__content {
+.posts__content {
   width: 122px;
   height: 122px;
   border-radius: 50%;
@@ -301,7 +301,7 @@
   }
 
 }
-.box-wrap {
+.posts {
   padding: 39px;
   @media (max-width:1199px) {
     padding: 20px;
