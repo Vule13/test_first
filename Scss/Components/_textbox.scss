@@ -212,7 +212,7 @@
     
   }
 }
-.quote-right__cirkle {
+.cirkle {
   gap: 13px;
   padding-top: 80px;
   align-items: center;
@@ -221,7 +221,7 @@
   }
  
 }
-.cirkle {
+.cirkle__item {
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -258,10 +258,7 @@
   }
 }
 
-.wrap-features {
- background-color: #fff;
- border-radius: 16px;
-}
+
 .row--features {
  padding-top: 28px;
  padding-bottom: 0;
@@ -298,6 +295,8 @@
 }
 .posts {
   padding: 39px;
+  background-color: #fff;
+  border-radius: 16px;
   @media (max-width:1199px) {
     padding: 20px;
   }

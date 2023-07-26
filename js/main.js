@@ -9,7 +9,7 @@ $(document).ready(function(){
   });
 });
 $(document).ready(function(){
-  $('body').click(function(){
+  $('.header-taskbar').click(function(){
     $('ul').toggleClass('show')
     $('.btn').toggleClass('show')
   });
