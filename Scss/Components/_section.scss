@@ -1,12 +1,12 @@
 .page-section {
   position: relative;
   z-index: 9;
-  padding-top: 150px;
+  padding-top: 200px;
   @media (max-width:991px) {
     padding-top: 100px;
   }
 }
-.page--trusted {
+.page-section--trusted {
   padding-top: 119px;
   @media (max-width:991px) {
     padding-top: 100px;
@@ -16,12 +16,13 @@
   }
 }
 
-.page--features {
+.page-section--features {
   padding: 27px 15px 0 15px;
   
 
 
 }
-.page--product {
+.page-section--product {
+  padding-top: 150px;
   padding-bottom: 150px;
 }
