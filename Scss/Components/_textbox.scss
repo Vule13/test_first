@@ -141,7 +141,7 @@
   }
 }
 .quote-right {
-  padding-left: 20px;
+  padding-left: 40px;
   @media (max-width:768px) {
     padding-left: 0;
     padding-top: 20px;
@@ -170,7 +170,6 @@
   line-height: 1.85;
   letter-spacing: 1.5px;
   padding: 30px 0;
-  width: 85%;
   color: #7E7FA0;
   @media (max-width: 1100px) {
     width: 100%;
@@ -254,14 +253,10 @@
  padding-left: 40px;
 }
 .posts__content {
-  width: 122px;
-  height: 122px;
+  width: 93px;
+  height: 93px;
   border-radius: 50%;
   background: var(--text-box-color);
-  @media (max-width: 991px) {
-    width: 90px;
-    height: 90px;
-  }
   
 }
 .box-wrap__icon {
@@ -296,9 +291,9 @@
 .product__img {
   position: relative;
 }
-.product__img img {
+.product__border-img {
   width: 100%;
-  position: relative;
+  
   border-radius: 8px 8px 0px 0px;
 }
 .product__title {
