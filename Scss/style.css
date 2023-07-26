@@ -101,10 +101,8 @@
   }
 }
 .text-box__title {
-  letter-spacing: 1.3px;
   overflow: hidden;
   white-space: nowrap;
-  padding-right: 20px;
   text-overflow: ellipsis;
 }
 
@@ -525,7 +523,7 @@
 
 :root {
   --grid: 12;
-  --grid-container-width: 1200px;
+  --grid-container-width: 1700px;
   --grid-container-gap: 15px;
   --grid-col-gap-vertical: 30px;
   --grid-col-gap-horizontal: 30px;
